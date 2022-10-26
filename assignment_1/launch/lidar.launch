@@ -1,0 +1,6 @@
+<launch>
+<!--This will launch the Task1 and Task 2 functionalities-->
+<node pkg="assignment_1" type="lidar.py" name="lidar" output="screen" >
+</node>
+
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+<!--This will launch the Task 3 functionalities-->
+
+<node pkg="assignment_1" type="potential_field.py" name="potential_field" output="screen" >
+    <param name="goal_x" value="1.6" />
+    <param name="goal_y" value="1.1" />
+</node>
+
+</launch>
